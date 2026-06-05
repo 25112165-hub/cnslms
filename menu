@@ -1,0 +1,143 @@
+```css
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#FFFDF3;
+    color:#5A4A4A;
+}
+
+nav{
+    background:#FFD6E8;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav li{
+    margin-left:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#5A4A4A;
+    font-weight:600;
+}
+
+.hero{
+    background:linear-gradient(135deg,#FFD6E8,#FFF3A3);
+    padding:80px 20px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:48px;
+}
+
+.container{
+    width:85%;
+    max-width:1100px;
+    margin:auto;
+    padding:50px 0;
+}
+
+.card{
+    background:white;
+    border:3px solid #FFF3A3;
+    border-radius:20px;
+    padding:30px;
+    margin-bottom:25px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+h2{
+    color:#F4AFC7;
+    margin-bottom:15px;
+}
+
+footer{
+    background:#FFD6E8;
+    text-align:center;
+    padding:20px;
+}
+```
+```html
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Portfolio Kỹ Năng Số</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<div class="logo">🌸 Portfolio</div>
+
+<ul>
+<li><a href="index.html">Trang chủ</a></li>
+<li><a href="bai1.html">Bài 1</a></li>
+<li><a href="tongket.html">Tổng kết</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<h1>Portfolio Kỹ Năng Số</h1>
+<p>Hành trình học tập và phát triển kỹ năng số</p>
+</section>
+
+<div class="container">
+
+<div class="card">
+<h2>Giới thiệu bản thân</h2>
+
+<p>
+Xin chào! Tôi là sinh viên ngành ..........
+Portfolio này tổng hợp các sản phẩm học tập,
+minh chứng và trải nghiệm trong học phần Kỹ năng số.
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>Mục tiêu học tập</h2>
+
+<ul>
+<li>Phát triển kỹ năng số.</li>
+<li>Nâng cao kỹ năng tìm kiếm thông tin.</li>
+<li>Ứng dụng AI hiệu quả.</li>
+<li>Rèn luyện kỹ năng hợp tác trực tuyến.</li>
+</ul>
+
+</div>
+
+</div>
+
+<footer>
+Portfolio Kỹ Năng Số 2026
+</footer>
+
+</body>
+</html>
+```
